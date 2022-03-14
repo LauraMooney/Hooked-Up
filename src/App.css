@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: url('../src/Images/header.png');
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-color: #153046;
+  max-width: 100%;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Logout {
+  margin-top: 100px;
+  background-color: #A50FDA;
+  color: #ffffff;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: .75em;
+  box-shadow: 1px 0 1px 0 rgb(238, 237, 237);
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 3em;
+  padding-top: 250px;
+}
+  
+  .artist {
+   margin-top: 50px;
+   display:grid; 
+   box-shadow: 2px 2px 2px 2px #141c22;
+   max-width:400px;
+  }
+
+  .artistName {
+    background-color: #A50FDA;
+    padding: 20px;
+    color:#ffffff;
+  }
+
+  .Search {
+    border: 0;
+    font-weight: 500;
+    border-radius: 50px;
+    font-size: 0.5em;
+    background-color: #CC5D12;
+    color: rgb(255, 255, 255);
+    
+  }
+
+  .Input {
+    border: 0;
+  }
+
+  .footer {
+    padding-top: 150;
+    margin-top:150;
+    font-size: 0.50em;
+    background-color: #153046;
+    text-align: center;
+  }
+
+  a {
+    color:#ffffff;
+    padding-top: 150;
+    font-weight: 200;
+    font-size: 1em;
+    text-align:center;
+  }
+
+  p {
+    padding-top:20px;
+    color: #ffffff;
+    margin: 2em;
+    font-weight: 200;
+  }
+  .footercontent {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+ 
+   
